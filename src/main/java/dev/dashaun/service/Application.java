@@ -1,4 +1,4 @@
-package io.dashaun.service.helloworld;
+package dev.dashaun.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

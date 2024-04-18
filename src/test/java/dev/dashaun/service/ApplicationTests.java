@@ -1,4 +1,4 @@
-package io.dashaun.service.helloworld;
+package dev.dashaun.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
