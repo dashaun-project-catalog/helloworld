@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>4.0.6</version>
+    <version>4.0.7.1</version>
     <relativePath></relativePath>
   </parent>
   <groupId>dev.dashaun.service</groupId>
@@ -19,10 +19,12 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-jackson2</artifactId>
+      <version>4.0.7.1</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
+      <version>4.0.7.1</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -33,11 +35,13 @@
           <artifactId>spring-boot-starter-jackson</artifactId>
         </exclusion>
       </exclusions>
+      <version>4.0.7.1</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
+      <version>4.0.7.1</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -49,6 +53,7 @@
           <artifactId>spring-boot-starter-jackson</artifactId>
         </exclusion>
       </exclusions>
+      <version>4.0.7.1</version>
     </dependency>
   </dependencies>
   <build>
